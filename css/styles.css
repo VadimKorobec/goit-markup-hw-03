@@ -46,9 +46,7 @@ ol {
 
 .logo {
   color: #2196f3;
-  text-decoration: none;
   font-family: Raleway, cursive;
-
   font-size: 26px;
   line-height: 1.19;
 }
@@ -59,8 +57,6 @@ ol {
 
 .nav-link {
   color: #212121;
-  text-decoration: none;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -76,17 +72,8 @@ ol {
   color: #2196f3;
 }
 
-.nav-item {
-  list-style: none;
-}
-
-.header-list {
-  list-style: none;
-}
-
 .header-mailto {
   color: #757575;
-  text-decoration: none;
 
   font-weight: 500;
   font-size: 14px;
@@ -101,8 +88,6 @@ ol {
 
 .header-phone {
   color: #757575;
-  text-decoration: none;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -122,7 +107,6 @@ ol {
 
 .hero-title {
   color: #ffffff;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -148,19 +132,13 @@ ol {
 .button-hero:focus {
   background-color: #188ce8;
   color: #ffffff;
-
   border: none;
 }
 
 /* offer section */
 
-.offer-list {
-  list-style: none;
-}
-
 .offer-title {
   color: #212121;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -174,13 +152,8 @@ ol {
 
 /* doing section */
 
-.doing-list {
-  list-style: none;
-}
-
 .doing-title {
   color: #212121;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -193,13 +166,8 @@ ol {
   background-color: #f5f4fa;
 }
 
-.team-list {
-  list-style: none;
-}
-
 .team-titel {
   color: #212121;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -208,7 +176,6 @@ ol {
 
 .team-subtitel {
   color: #212121;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -227,7 +194,6 @@ ol {
 
 .address {
   color: #ffffff;
-
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
@@ -235,8 +201,6 @@ ol {
 
 .footer-mailto {
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-
   font-size: 14px;
   line-height: 1.71;
 }
@@ -248,8 +212,6 @@ ol {
 
 .footer-phone {
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-
   font-size: 14px;
   line-height: 1.71;
 }
@@ -261,9 +223,7 @@ ol {
 
 .footer-logo {
   color: #2196f3;
-  text-decoration: none;
   font-family: Raleway, cursive;
-
   font-size: 26px;
   line-height: 1.19;
 }
@@ -272,22 +232,13 @@ ol {
   color: #ffffff;
 }
 
-.footer-item {
-  list-style: none;
-}
-
 /* Portfolio section */
-
-.button-item {
-  list-style: none;
-}
 
 .button-portfolio {
   color: #212121;
   border: none;
   font-family: inherit;
   cursor: pointer;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -303,13 +254,8 @@ ol {
   color: #ffffff;
 }
 
-.portfolio-item {
-  list-style: none;
-}
-
 .portfolio-titel {
   color: #212121;
-
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
