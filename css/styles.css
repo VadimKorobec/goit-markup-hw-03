@@ -44,6 +44,15 @@ ol {
 
 /* Частковий ресет стилей браузера end */
 
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid tomato;
+}
+
 .logo {
   color: #2196f3;
   font-family: Raleway, cursive;
@@ -103,9 +112,12 @@ ol {
 
 .hero {
   background-color: #2f303a;
+  text-align: center;
 }
 
 .hero-title {
+  margin-bottom: 30px;
+
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -116,16 +128,20 @@ ol {
 }
 
 .button-hero {
+  width: 200px;
+  height: 50px;
+
   background-color: #2196f3;
   color: #ffffff;
   border: none;
   font-family: inherit;
   cursor: pointer;
-
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .button-hero:hover,
@@ -265,4 +281,17 @@ ol {
 .portfolio-text {
   font-size: 16px;
   line-height: 1.87;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
