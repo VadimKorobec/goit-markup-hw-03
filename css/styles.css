@@ -23,6 +23,7 @@ body {
 a {
   text-decoration: none;
   color: currentColor;
+  display: inline-block;
 }
 
 h1,
@@ -154,7 +155,13 @@ ol {
 
 /* offer section */
 
+.offer {
+  margin-bottom: 94px;
+}
+
 .offer-title {
+  margin-bottom: 10px;
+
   color: #212121;
   font-weight: 700;
   font-size: 14px;
@@ -170,6 +177,8 @@ ol {
 /* doing section */
 
 .doing-title {
+  margin-bottom: 50px;
+
   color: #212121;
   font-weight: 700;
   font-size: 36px;
@@ -184,6 +193,8 @@ ol {
 }
 
 .team-titel {
+  margin-bottom: 50px;
+
   color: #212121;
   font-weight: 700;
   font-size: 36px;
@@ -210,6 +221,8 @@ ol {
 }
 
 .address {
+  margin-bottom: 9px;
+
   color: #ffffff;
   font-size: 14px;
   line-height: 1.71;
@@ -217,6 +230,7 @@ ol {
 }
 
 .footer-mailto {
+  margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.71;
@@ -228,6 +242,7 @@ ol {
 }
 
 .footer-phone {
+  display: inline-block;
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.71;
@@ -239,6 +254,7 @@ ol {
 }
 
 .footer-logo {
+  margin-bottom: 20px;
   color: #2196f3;
   font-family: Raleway, cursive;
   font-size: 26px;
