@@ -51,7 +51,7 @@ ol {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 
 .logo {
@@ -63,6 +63,14 @@ ol {
 
 .logo-inner {
   color: #000000;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 50px;
 }
 
 .nav-link {
@@ -194,6 +202,7 @@ ol {
 
 .team-titel {
   margin-bottom: 50px;
+  padding-top: 94px;
 
   color: #212121;
   font-weight: 700;
