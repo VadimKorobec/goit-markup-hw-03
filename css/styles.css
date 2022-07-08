@@ -79,7 +79,6 @@ a {
 .header-container {
   display: flex;
   align-items: center;
-  margin-right: auto;
 }
 
 .logo {
@@ -96,6 +95,10 @@ a {
 
 .logo-inner {
   color: #000000;
+}
+
+.nav {
+  margin-right: auto;
 }
 
 .nav-list {
@@ -210,6 +213,7 @@ a {
 
 .offer-list {
   display: flex;
+  gap: 30px;
 }
 .offer-title {
   margin-bottom: 10px;
@@ -228,6 +232,10 @@ a {
 
 /* doing section */
 
+.section-top {
+  padding-top: 0;
+}
+
 .doing-title {
   margin-bottom: 50px;
 
@@ -240,7 +248,7 @@ a {
 
 .doing-list {
   display: flex;
-  justify-content: space-around;
+  gap: 30px;
 }
 
 /* team section */
@@ -261,6 +269,7 @@ a {
 
 .team-list {
   display: flex;
+  gap: 30px;
 }
 .team-subtitel {
   color: #212121;
@@ -280,8 +289,17 @@ a {
   background-color: #2f303a;
 }
 
+.footer-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+}
 .address {
-  margin-bottom: 9px;
+  margin-bottom: 20px;
 
   color: #ffffff;
   font-size: 14px;
@@ -358,6 +376,7 @@ a {
 
 .portfolio-list {
   display: flex;
+  gap: 30px;
 }
 
 .portfolio-titel {
