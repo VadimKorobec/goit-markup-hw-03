@@ -79,10 +79,6 @@ a {
 .header-container {
   display: flex;
   align-items: center;
-}
-
-.nav {
-  display: flex;
   margin-right: auto;
 }
 
