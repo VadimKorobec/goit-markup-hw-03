@@ -54,7 +54,7 @@ a {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 
 .section {
@@ -75,6 +75,13 @@ a {
 }
 
 /* Header section */
+
+.header {
+  border: 1px solid #ececec;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
 
 .header-container {
   display: flex;
@@ -173,6 +180,11 @@ a {
   text-align: center;
 }
 
+.section-wrap {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .hero-title {
   margin-bottom: 30px;
 
@@ -215,6 +227,7 @@ a {
   display: flex;
   gap: 30px;
 }
+
 .offer-title {
   margin-bottom: 10px;
 
@@ -271,16 +284,34 @@ a {
   display: flex;
   gap: 30px;
 }
+
+.team-wrapper {
+  border-top: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-subtitel {
+  margin-bottom: 10px;
+
   color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  text-align: center;
 }
 
 .team-text {
   font-size: 16px;
   line-height: 1.18;
+  text-align: center;
 }
 
 /* footer section */
@@ -350,9 +381,10 @@ a {
   justify-content: center;
 }
 
-.button-item {
+.button-item:not(:last-child) {
   margin-right: 8px;
 }
+
 .button-portfolio {
   color: #212121;
   border: none;
@@ -373,12 +405,59 @@ a {
   color: #ffffff;
 }
 
+.btn-one {
+  width: 73px;
+  height: 38px;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.btn-two {
+  width: 128px;
+  height: 38px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.btn-three {
+  width: 145px;
+  height: 38px;
+  border-radius: 4px;
+}
+
+.btn-four {
+  width: 145px;
+  height: 38px;
+  border-radius: 4px;
+}
+
+.btn-five {
+  width: 130px;
+  height: 38px;
+  border-radius: 4px;
+}
+
 .portfolio-list {
   display: flex;
   gap: 30px;
 }
 
+.portfolio-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-top: none;
+}
+
 .portfolio-titel {
+  margin-bottom: 4px;
+
   color: #212121;
   font-weight: 700;
   font-size: 18px;
