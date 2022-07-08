@@ -297,42 +297,7 @@ a {
 .footer-logo {
   display: block;
   margin-bottom: 20px;
-}
-.address {
-  margin-bottom: 20px;
 
-  color: #ffffff;
-  font-size: 14px;
-  line-height: 1.71;
-  font-style: normal;
-}
-
-.footer-mailto {
-  margin-bottom: 9px;
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
-  line-height: 1.71;
-}
-
-.footer-mailto:hover,
-.footer-mailto:focus {
-  color: #2196f3;
-}
-
-.footer-phone {
-  display: inline-block;
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
-  line-height: 1.71;
-}
-
-.footer-phone:hover,
-.footer-phone:focus {
-  color: #2196f3;
-}
-
-.footer-logo {
-  margin-bottom: 20px;
   color: #2196f3;
   font-family: Raleway, cursive;
   font-size: 26px;
@@ -341,6 +306,40 @@ a {
 
 .footer-logo-inner {
   color: #ffffff;
+}
+
+.address {
+  margin-bottom: 9px;
+
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.footer-mailto {
+  display: block;
+  margin-bottom: 9px;
+
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-mailto:hover,
+.footer-mailto:focus {
+  color: #2196f3;
+}
+
+.footer-phone {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-phone:hover,
+.footer-phone:focus {
+  color: #2196f3;
 }
 
 /* Portfolio section */
