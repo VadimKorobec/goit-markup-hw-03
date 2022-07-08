@@ -10,6 +10,12 @@
 /* шапка hover #188CE8 */
 /* body #E5E5E5 */
 
+:root {
+  /* others */
+  --indent: 30px;
+  --items: 3;
+}
+
 body {
   color: #757575;
   font-family: Roboto, sans-serif;
@@ -225,7 +231,7 @@ a {
 
 .offer-list {
   display: flex;
-  gap: 30px;
+  gap: var(--indent);
 }
 
 .offer-title {
@@ -261,7 +267,7 @@ a {
 
 .doing-list {
   display: flex;
-  gap: 30px;
+  gap: var(--indent);
 }
 
 /* team section */
@@ -282,7 +288,7 @@ a {
 
 .team-list {
   display: flex;
-  gap: 30px;
+  gap: var(--indent);
 }
 
 .team-wrapper {
@@ -441,7 +447,7 @@ a {
 
 .portfolio-list {
   display: flex;
-  gap: 30px;
+  gap: var(--indent);
 }
 
 .portfolio-wrapper {
