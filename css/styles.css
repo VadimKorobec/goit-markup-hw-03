@@ -52,7 +52,7 @@ a {
 
 /* Частковий ресет стилей браузера end */
 
-/* base styles */
+/* Base styles */
 
 .container {
   width: 1200px;
@@ -60,7 +60,7 @@ a {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 1px solid tomato; */
+  outline: 1px solid tomato;
 }
 
 .section {
@@ -100,10 +100,11 @@ a {
   padding-top: 24px;
   padding-bottom: 25px;
 
-  color: #2196f3;
   font-family: Raleway, cursive;
   font-size: 26px;
   line-height: 1.19;
+
+  color: #2196f3;
 }
 
 .logo-inner {
@@ -193,6 +194,9 @@ a {
 
 .hero-title {
   margin-bottom: 30px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 
   color: #ffffff;
   font-weight: 900;
@@ -204,8 +208,9 @@ a {
 }
 
 .button-hero {
-  width: 200px;
-  height: 50px;
+  min-width: 200px;
+  min-height: 50px;
+  padding: 10px 32px;
 
   background-color: #2196f3;
   color: #ffffff;
@@ -232,6 +237,10 @@ a {
 .offer-list {
   display: flex;
   gap: var(--indent);
+}
+
+.offer-item {
+  flex-basis: 270px;
 }
 
 .offer-title {
@@ -302,6 +311,7 @@ a {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  letter-spacing: 0.03em;
 }
 
 .team-subtitel {
@@ -354,13 +364,16 @@ a {
   font-style: normal;
 }
 
-.footer-mailto {
+.footer-item:not(:last-child) {
   display: block;
   margin-bottom: 9px;
+}
 
+.footer-mailto {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.02em;
 }
 
 .footer-mailto:hover,
@@ -372,6 +385,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.02em;
 }
 
 .footer-phone:hover,
@@ -392,6 +406,8 @@ a {
 }
 
 .button-portfolio {
+  padding: 6px 22px;
+
   color: #212121;
   border: none;
   font-family: inherit;
@@ -399,50 +415,22 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  border-radius: 4px;
 }
 
 .button-portfolio.current {
   background-color: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
   background-color: #2196f3;
   color: #ffffff;
-}
-
-.btn-one {
-  width: 73px;
-  height: 38px;
-  background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.btn-two {
-  width: 128px;
-  height: 38px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
-}
-
-.btn-three {
-  width: 145px;
-  height: 38px;
-  border-radius: 4px;
-}
-
-.btn-four {
-  width: 145px;
-  height: 38px;
-  border-radius: 4px;
-}
-
-.btn-five {
-  width: 130px;
-  height: 38px;
-  border-radius: 4px;
 }
 
 .portfolio-list {
@@ -456,7 +444,6 @@ a {
   padding-left: 24px;
   padding-right: 24px;
 
-  background: #ffffff;
   border: 1px solid #eeeeee;
   border-top: none;
 }
